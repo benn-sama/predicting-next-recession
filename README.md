@@ -10,10 +10,14 @@ NOTICE: You must download ALL data locally and manually. You can't push the data
 
 Python 3.12 installed?
 Yes, continue.
+
+
 No, install via 'https://www.python.org/downloads/release/python-3120/'
 
 Pip installed?
 Yes, continue.
+
+
 No, install via cmd line for windows:
 ```
 python -m ensurepip --upgrade
