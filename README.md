@@ -32,7 +32,8 @@ python -m venv venv
 ```
 venv\Scripts\activate
 ```  
-OR  
+### OR  
+  
 2.b) Activate virtual environement in powershell (w/out ubuntu):
 ```
 .\venv\Scripts\Activate.ps1
