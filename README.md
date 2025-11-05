@@ -37,18 +37,18 @@ venv\Scripts\activate
 2.b) Activate virtual environement in powershell (w/out ubuntu):
 ```
 .\venv\Scripts\Activate.ps1
-```
+```  
 
 If you get a “execution policy” error in PowerShell, run:
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-```
+```  
 Then go back to step 1 under windows.
 
 Your terminal should have something like:
 ```
 ((venv) ) ben@Benjamins-MacBook-Pro predicting-next-recession 
-```
+```  
 
 Continute to "Download Dependencies"  
 
@@ -57,24 +57,24 @@ Continute to "Download Dependencies"
 1. Create venv(virtual environment) folder:
 ```
 python3.12 -m venv venv
-```
+```  
 
 2. Activate venv:
 ```
 source venv/bin/activate
-```
+```  
 
 Your terminal should have something like:
 ```
 ((venv) ) ben@Benjamins-MacBook-Pro predicting-next-recession 
-```
+```  
 
 #### Download all dependencies
 
 Windows/Mac/Linux/Ubuntu:
 ```
 pip install -r requirements.txt
-```
+```  
 
 If you download other dependencies please run:
 ```
