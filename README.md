@@ -8,12 +8,12 @@ NOTICE: You must download ALL data locally and manually. You can't push the data
 
 ### Prerequisites
 1. Python 3.12 installed?
-  1.a) Yes, continue
-  1.b) No, install via 'https://www.python.org/downloads/release/python-3120/'
+  1.a. Yes, continue
+  1.b. No, install via 'https://www.python.org/downloads/release/python-3120/'
 
 2. Pip installed?
-  2.a) Yes, continue
-  2.a) No, install via cmd line for windows
+  2.a. Yes, continue
+  2.a. No, install via cmd line for windows
   ```
   python -m ensurepip --upgrade
   ```
