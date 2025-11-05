@@ -19,9 +19,9 @@ No, install via cmd line for windows:
 python -m ensurepip --upgrade
 ```  
 
-### Setting up python virtual environment and activating it
+### Setting up python virtual environment and activating it  
 
-#### Windows
+#### Setting up in Windows
 
 1. Create venv(virtual environment) folder:
 ```
@@ -49,6 +49,8 @@ Your terminal should have something like:
 ```
 ((venv) ) ben@Benjamins-MacBook-Pro predicting-next-recession 
 ```
+
+Continute to "Download Dependencies"  
 
 #### Linux/Ubuntu/Mac
 
