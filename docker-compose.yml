@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: rec_db
+    restart: always
+    environment:
+      POSTGRES_USER: ben
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: rec_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  notebook:
+    build: .
+    container_name: recession_notebook
+    command: jupyter notebook --ip=0.0.0.0 --allow-root --NotebookApp.token=''
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+
+volumes:
+  pgdata:
